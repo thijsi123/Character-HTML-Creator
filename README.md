@@ -46,13 +46,24 @@ src/
 ## 📖 Usage
 
 1. **Launch the application** using any of the methods above
-2. **Start playing around and creating.**
+2. **Start playing around and creating. Or Import from existing json from previous runs/saved** 
 3. **Use the editor tools** to customize your HTML:
    - Add text, images, and other elements
    - Adjust colors, fonts, and layouts
    - Preview your changes in real-time
-4. **Save or export** your finished HTML
-   
+4. **Save or export** your finished HTML - Recommended to save as HTML and JSON
+5. For using it in chub, copy the html and paste it into the Creator's Notes of your character.
+
+![image](https://github.com/user-attachments/assets/8badacdf-389f-4070-b900-609fe32ffd31)
+![image](https://github.com/user-attachments/assets/82703cc6-8e94-480c-bb64-b0242df15b23)
+![image](https://github.com/user-attachments/assets/69f359ed-3fb0-48bc-8167-e4bdfd4fa3e4)
+![image](https://github.com/user-attachments/assets/77276ab3-1173-4b20-9b60-fa75fd8f3087)
+
+
+![image](https://github.com/user-attachments/assets/803f9221-dc58-4477-a1dc-eede055ea26c)
+![image](https://github.com/user-attachments/assets/f6306b02-055d-4151-b200-9af64dacc856)
+
+
 
 ## 🐛 Known Issues
 
