@@ -56,4 +56,4 @@ android/app/src/main/assets/public
 ios/App/App/public
 
 # Electron
-electron/dist/
+electron/dist/"dist-electron/" 
