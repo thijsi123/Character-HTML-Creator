@@ -2570,14 +2570,15 @@ const CardEditor: React.FC = () => {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className={`${cardClass} border rounded-lg p-6 w-11/12 max-w-4xl max-h-[80vh] overflow-y-auto`}>
             <div className="flex justify-between items-center mb-4">
-              <h3 className="text-lg font-semibold">📝 Load from Raw Markup</h3>
+              <h3 className="text-lg font-semibold">📝 Load from Raw Markup. This is VERY experimental, currently ONLY JSON is fully 100% functioning, HTML import will likely cause issues.</h3>
               <button 
                 onClick={() => setShowMarkupModal(false)}
                 className="text-2xl hover:text-red-500"
               >
-                ×
+                
               </button>
             </div>
+            
             <p className="text-sm opacity-75 mb-4">
               Paste your card data below to load a previous iteration:
             </p>
