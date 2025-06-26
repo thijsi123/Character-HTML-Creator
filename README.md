@@ -11,7 +11,7 @@ Character-HTML-Creator is a desktop, no-code HTML builder—powered by React, Ty
 
 ### Prerequisites
 
-- Node.js (version 16 or higher)
+- Node.js (version 22 or higher recommended since v18.x reached end-of-life.)
 - npm or yarn
 
 ### Installation
