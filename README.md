@@ -1,54 +1,73 @@
-# React + TypeScript + Vite
+# Character-HTML-Creator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Character-HTML-Creator is a desktop, no-code HTML builder—powered by React, TypeScript & Electron—tailored? for chub.ai character summaries. Design, style, and live-preview your character’s HTML description without touching the HTML itself, then export paste-ready markup without ever writing a tag.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Real-time Preview**: See your changes instantly as you edit
+- **Export Options**: Save your custom HTML in multiple formats
 
-## Expanding the ESLint configuration
+## 🚀 Quick Start
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Prerequisites
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- Node.js (version 16 or higher)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/thijsi123/Character-HTML-Creator
+   cd Character-HTML-Creator
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser** and navigate to `http://localhost:5173`
+
+## 🛠️ Development
+
+### Project Structure
+```
+src/
+└── CardEditor.tsx          # Most, if not all, Logic. This is what you're looking for.
+
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📖 Usage
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. **Launch the application** using any of the methods above
+2. **Start playing around and creating.**
+3. **Use the editor tools** to customize your HTML:
+   - Add text, images, and other elements
+   - Adjust colors, fonts, and layouts
+   - Preview your changes in real-time
+4. **Save or export** your finished HTML
+   
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🐛 Known Issues
+
+<!-- Known bugs and issues will be displayed here -->
+
+
+## 📄 License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.  
+*This code was AI-assisted (Claude) and you’re free to use, remix, or repurpose it.*
+
+---
+
+## 🔗 Third-Party Assets
+
+- Placeholder images are hot-linked from [Lorem Picsum](https://picsum.photos).  
+  These images are served under the Unsplash License; see https://picsum.photos for terms.  
+- All other remote assets are not covered by this MIT license.
