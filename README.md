@@ -1,4 +1,4 @@
-# Character-HTML-Creator
+# Character-HTML-Creator For chub.ai
 
 Character-HTML-Creator is a desktop, no-code HTML builder—powered by React, TypeScript & Electron—tailored? for chub.ai character summaries. Design, style, and live-preview your character’s HTML description without touching the HTML itself, then export paste-ready markup without ever writing a tag.
 
